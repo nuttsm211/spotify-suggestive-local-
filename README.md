@@ -1,7 +1,7 @@
 # spotify-suggestive-local
 
 
-this tiny script analyzes your spotify extended streaming history(which you can request to download thru their website/services) using local tools and generates yearly insights, visual charts, summaries, recommendations, and playful roasts. It works fully offline using a llm through ollama. le script creates charts for overall listening patterns and detailed yearly breakdowns, then stores everything in a charts folder inside your history directory.
+this tiny script analyzes your spotify extended streaming history(which you can request to download thru their website/services) using local tools and generates yearly insights, visual charts, summaries, recommendations, and playful roasts. using a locally ran llm through ollama. script creates charts for overall listening patterns and detailed yearly breakdowns, then stores everything in a charts folder inside your history directory.
 
 tools/libs used : matplotlib, pandas, glob, json, random, os, torch (optional), requests, Ollama, llama3 local model
 
